@@ -24,14 +24,16 @@ EmoVault是一个基于人工智能的情绪分析聊天应用，能够分析用
 安装步骤
 
 1. 克隆仓库
-bash
-git clone https://github.com/yourusername/emovault.git
+```bash
+git clone https://github.com/ThomasLewandovski/emovault.git
 cd emovault
+```
 
 
 2. 安装依赖
-bash
+```bash
 pip install -r requirements.txt
+```
 
 
 3. 设置环境变量
@@ -44,20 +46,28 @@ pip install -r requirements.txt
 
    
    方法二：直接设置系统环境变量
-   bash
+   ```bash
    # Linux/Mac
-   export DEEPSEEK_API_KEY="your_api_key_here"
+   export DEEPSEEK_API_KEY="your_api_key_here"  
    
    # Windows
    set DEEPSEEK_API_KEY=your_api_key_here
+   ```
    
 
 使用方法
 
 1. 运行应用
-```bash
-python run_app.py
-```
+
+   方法一：使用run_app.py脚本（推荐）
+   ```bash
+   python run_app.py
+   ```
+   
+   方法二：直接使用streamlit
+   ```bash
+   streamlit run app/main.py
+   ```
 
 2. 在浏览器中访问应用（默认地址：http://localhost:8501）
 
