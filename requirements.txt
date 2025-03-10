@@ -1,0 +1,17 @@
+numpy==2.2.3
+torch==2.6.0
+torchvision==0.14.1
+transformers==4.35.1
+streamlit==1.43.1
+SpeechRecognition==3.14.1
+python-dotenv==1.0.1
+huggingface-hub==0.17.3
+sentence-transformers==2.4.0
+requests==2.32.3
+scikit-learn==1.6.1
+tqdm==4.67.1
+PyAudio==0.2.14
+regex==2024.11.6
+load-dotenv==0.1.0
+pandas==2.2.3
+Pillow==11.1.0
